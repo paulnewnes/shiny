@@ -1,0 +1,12 @@
+name: Covid-19-Curve-UK
+title: Covid-19-Curve-UK
+username:
+account: paulnewnes
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 2312719
+bundleId: 3157625
+url: https://paulnewnes.shinyapps.io/Covid-19-Curve-UK/
+when: 1589706623.16897
+asMultiple: FALSE
+asStatic: FALSE

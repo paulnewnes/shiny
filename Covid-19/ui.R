@@ -21,7 +21,7 @@ shinyUI(
             h4("Documentation"),
             p("This app shows the daily deaths in the UK from Covid-19"),
             p("Set the date-range & select the UK territory using the controls."),
-            p("The Loess regression line will then update."),
+            p("The LOESS regression line will then update."),
             p("The data is imported live from the UK Government website each day.")),
         
         sidebarPanel(
@@ -29,8 +29,8 @@ shinyUI(
             dateRangeInput(
                 "date.range",
                 "Date Range",
-                min   = as.Date("2020-03-01"),
-                start = as.Date("2020-03-01"),
+                min   = as.Date("2020-03-06"),
+                start = as.Date("2020-03-06"),
                 max   = Sys.Date() - 1,
                 end   = Sys.Date() - 1),
             radioButtons(
